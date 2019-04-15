@@ -4,7 +4,7 @@
 
 ## Background
 
-I developed this challenge to help my classmates at Integrify develop their problem-solving skills. We study coding every weekday from 9am to 5pm; with the teacher's permission, we put aside half a day on April 15th 2019 (which was, of course, before I published this repository) for a Problem Solving Bootcamp. There were three challenges:
+I developed this challenge to help my classmates at Integrify develop their problem-solving skills. We study coding every weekday from 9am to 5pm; with the teacher's permission, we put aside half a day on April 15th 2019 (which was, of course, before I published this repository) for a Problem-Solving Workshop. There were three challenges:
 
 1. The Yogurt Challenge: I took a volunteer to do this challenge with me in front of the group. I played a very literal-minded robot, and the volunteer had to tell me how to eat a yogurt. This was to help people see how this activity has to be broken down into very specific instructions. "Eat the yogurt" is not enough. "Grab the spoon and put yogurt in your mouth" is not enough. And so on.
 
@@ -37,15 +37,15 @@ Which means:
 Given the input, write code that will count the number *n* of days the calculated and actual incomes didn't match, and give *n* as the output. In this example, the output will be `0`.
 
 Example 2:
-`C 1 100 C 2 200 A 1 100 A 2 50`
+`C 1 100 C 2 200 A 1 60 A 2 50`
 
 Which means:
 - Calculated income he should have on day 1: 100
 - Calculated income he should have on day 2: 200
-- Actual income he has on day 1: 100
+- Actual income he has on day 1: 60
 - Actual income he has on day 2: 50
 
-In this example, the output will be `1`.
+In this example, the output will be `2`.
 
 ## Level 1
 - Input 1: `C 1 85 C 2 86 C 3 96 A 1 85 A 2 86 A 3 96`
@@ -106,3 +106,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 - Everyone at [Integrify](https://github.com/Integrify-Finland), especially my teacher and classmates.
+- The [Catalyst Coding Contest](https://codingcontest.org/).
